@@ -26,34 +26,122 @@ h1, h2, h3, h4{
   font-style: normal;
 }
 h1{
-  font-size:40px
+  font-size:50px;
 }
 h2{
-
+  font-size: 35px;
+}
+h2.subtitle{
+  font-weight: 300;
+  margin: 0px;
 }
 h3{
-
+  font-size: 40px;
 }
 p{
   font-size: 16px;
   line-height: 1.5em;
 }
-a{
+/* COLORS */
+.yellow{
+  color: var(--yellow);
+}
 
+
+/* LINKS */
+a{
+  color: var(--yellow);
+}
+nav a {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.2s;
+}
+nav a:hover {
+  color: var(--yellow);
+}
+.cta{
+  margin: 30px 0;
+}
+.cta a{
+  background-color: var(--yellow);
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 16px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.cta a:hover{
+  background-color: #000000;
+  color: var(--yellow);
+}
+
+img{
+  max-width: 100%;
 }
 
 .herosection{
   padding: 30px 0;
 }
-
+.herosection h1{
+  margin-bottom:0;
+  margin-top: 0;
+  ;
+}
+.herosection > ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
+}
+.herosection > ul li{
+  margin-bottom: -100px;
+}
+.herosection > ul li:nth-child(2){
+  text-align: right;
+}
+.herosection img{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 16px;
+  max-width: 300px;
+}
 .roundedcorner{
   border-radius: 16px;
 }
 .bg-grey{
   background-color: var(--grey);
+  color: #FFFFFF;
 }
 .bg-yellow{
   background-color: var(--yellow);
 }
+.container{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
 
-
+.right{
+  float: right;
+  margin-top: 10px;
+}
+.specials{
+  margin-top: 80px;
+}

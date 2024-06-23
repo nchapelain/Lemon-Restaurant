@@ -1,10 +1,13 @@
 import './Main.css';
+import TopHeroSection from './TopHeroSection';
+import Specials from './Specials';
 
 function Main() {
   return (
     <>
     <main>
-      <section className='herosection bg-grey'></section>
+      <TopHeroSection />
+      <Specials />
     </main>
     </>
   );
