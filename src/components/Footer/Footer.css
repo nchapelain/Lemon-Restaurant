@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+footer >*{
+    flex: 1;
+}
+footer img{
+    max-width: 100%;
+    height: auto
+    ;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
