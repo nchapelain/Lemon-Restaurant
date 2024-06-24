@@ -11,7 +11,7 @@ function Nav() {
   return (
     <nav className={`topbar container ${menuOpen ? 'menuactif' : ''}`}>
       <section className="branding">
-        <img src={logo} alt="Little Limon Restaurant" />
+        <img src={logo} alt="Little Lemon Restaurant" />
       </section>
       <section className='MobileBurger' onClick={toggleMenu}>
         <img src={burger} alt='Toggle menu' />

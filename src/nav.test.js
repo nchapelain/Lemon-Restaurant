@@ -7,7 +7,7 @@ test('renders the navigation bar with the burger menu', () => {
   render(<Nav />);
   
   // Vérifie si le logo est présent
-  const logoElement = screen.getByAltText(/Little Limon Restaurant/i);
+  const logoElement = screen.getByAltText(/Little Lemon Restaurant/i);
   expect(logoElement).toBeInTheDocument();
 
   // Vérifie si le burger menu est présent
