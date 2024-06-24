@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Router>
-      <Header  />
+      <Header reservationState={reservation} reservationTime={reservationTime} />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/reservation" element={<Reservation reservationStateChanger={setReservation} reservationTimeStateChanger={setReservationTime} />} />

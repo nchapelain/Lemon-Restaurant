@@ -26,8 +26,8 @@ const About = () => {
                     </p>
                     </section>
                     <section className="grid2">
-                        <img src={image1} className="roundedcorner" />
-                        <img src={image2} className="roundedcorner" />
+                        <img src={image1} className="roundedcorner" alt="" />
+                        <img src={image2} className="roundedcorner" alt="" />
                     </section>
                     </section>
                 </>

@@ -6,7 +6,7 @@ function Footer() {
     <footer >
     <section className='container grid4'>
         <section>
-          <img src='/icons_assets/restaurant.jpg' />
+          <img src='/icons_assets/restaurant.jpg' alt='' />
         </section>
         <section>
           <h4>Doormat Navigation</h4>
