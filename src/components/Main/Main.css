@@ -18,3 +18,7 @@ ul.menu > li{
     padding: 10px 0;
     font-weight: bold;
 }
+main{
+    animation: 0.2s linear opacity;
+    transition: 0.2s;
+}

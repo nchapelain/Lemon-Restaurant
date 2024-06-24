@@ -1,12 +1,12 @@
-import image from './assets/restauranfood.jpg';
 import './Footer.css';
 
 function Footer() {
   return (
     <>
-    <footer className='container'>
+    <footer >
+    <section className='container grid4'>
         <section>
-          <img src={image} />
+          <img src='/icons_assets/restaurant.jpg' />
         </section>
         <section>
           <h4>Doormat Navigation</h4>
@@ -35,6 +35,8 @@ function Footer() {
           <li>email</li>
         </ul>
         </section>
+      </section> 
+
     </footer>
     </>
   );

@@ -18,3 +18,32 @@ ul.menu > li{
     padding: 10px 0;
     font-weight: bold;
 }
+.MobileBurger{
+    display: none;
+}
+@media screen and (max-width:600px){
+    .MobileBurger{
+        display: block;
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .menuactif ul.menu{
+        display: block;
+    }
+    ul.menu{
+        display: none;
+        background: #FFF;
+
+    position: absolute;
+    padding: 20px;
+    right: 0;
+    width: 100%;
+
+    }
+    .topbar{
+        display: block;
+        padding: 20px ;
+    }
+}
